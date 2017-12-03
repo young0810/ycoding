@@ -5,12 +5,12 @@ import styles from './IndexPage.css';
 function IndexPage() {
   return (
     <div className={styles.normal}>
-      <h1 className={styles.title}>老婆生气了？又？</h1>
+      <h1 className={styles.title}> YCoding </h1>
+      <h3>coming soon!</h3>
     </div>
   );
 }
 
-IndexPage.propTypes = {
-};
+IndexPage.propTypes = {};
 
 export default connect()(IndexPage);
