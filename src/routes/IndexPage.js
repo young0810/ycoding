@@ -5,7 +5,7 @@ import styles from './IndexPage.css';
 function IndexPage() {
   return (
     <div className={styles.normal}>
-      <h1 className={styles.title}>MDZZ!</h1>
+      <h1 className={styles.title}>不客气!</h1>
     </div>
   );
 }
