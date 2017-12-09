@@ -1,0 +1,11 @@
+
+.normal {
+    height: 100%;
+    min-height: 600px;
+}
+.content {
+    font-size: 30px;
+}
+.row {
+    height: 200px;
+}
