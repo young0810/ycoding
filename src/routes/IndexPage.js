@@ -1,12 +1,14 @@
 import React from 'react';
 import { connect } from 'dva';
+import Header from '../components/Header';
+import Section from '../components/Section';
 import styles from './IndexPage.css';
 
 function IndexPage() {
   return (
     <div className={styles.normal}>
-      <h1 className={styles.title}> YCoding </h1>
-      <h3>coming soon!</h3>
+      <Header />
+      <Section />
     </div>
   );
 }
