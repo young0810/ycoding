@@ -14,19 +14,17 @@ function LogoHeader() {
       <Content>
         <Row type="flex" align="center" justify="middle">
           <Col span={16}>
-            <div className={styles.name}>YCoding</div>
-          </Col>
-        </Row>
-        <Row type="flex" align="center" justify="middle">
-          <Col span={16}>
-            <div className={styles.description}>ycoding means why coding </div>
+            <div className={styles.name}>I'm yy</div>
           </Col>
         </Row>
       </Content>
       <Footer className={styles.footer}>
         <Row type="flex" align="center" justify="middle">
-          <Col span={1}>
+          {/* <Col span={1}>
             <Icon type="down" className={styles.down} />
+          </Col> */}
+          <Col span={16}>
+            <div style={{ textAlign: 'center', fontSize: '40px' }} className={styles.description}>老婆，三八节快乐! </div>
           </Col>
         </Row>
       </Footer>
